@@ -10,7 +10,7 @@
   <!-- Title, description, author -->
   {%- capture _page_title -%}
     {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
-    {{- site.title | default: "Untitled Website" -}}
+    {{- site.title | default: "Dianna's Postfolio" -}}
     {%- if site.subtitle -%}{{- site.subtitle | prepend: ' - ' -}}{%- endif -%}
   {%- endcapture -%}
   {%- assign _page_title = _page_title | escape -%}
