@@ -39,21 +39,3 @@
 {%- endif -%}
 
 
-
-{%- if _title == "Profile" -%}
-<section id="{{- _slug -}}" class="{{- _class -}}">
-  <div class="container">
-    {{- _photo -}}
-    {{- _heading -}}
-    {{- include.content -}}
-  </div>
-</section>
-{%- else -%}
-<section id="{{- _slug -}}" class="{{- _class -}}" style="margin-left:18%">
-  <div class="container">
-    {{- _photo -}}
-    {{- _heading -}}
-    {{- include.content -}}
-  </div>
-</section>
-{%- endif -%}
