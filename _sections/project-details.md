@@ -1,7 +1,7 @@
 ---
 title: Project Details
 icon: fa-check
-order: 4
+order: 2
 ---
 
 Project 1:
