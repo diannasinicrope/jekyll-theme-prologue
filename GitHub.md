@@ -1,6 +1,6 @@
 ---
 title: GitHub Repo
-subtitle: a list of books I read
+subtitle: Never stop learning.
 layout: "page"
 icon: fa-book
 order: 3
