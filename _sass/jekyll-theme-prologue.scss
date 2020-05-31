@@ -42,13 +42,13 @@
 			narrow: (
 				containers: 100%,
 				grid: (
-					gutters: (20px, 20px)
+					gutters: (40px, 40px)
 				),
 			),
 			narrower: (
 				containers: 100%,
 				grid: (
-					gutters: (20px, 20px)
+					gutters: (40px, 40px)
 				),
 			),
 			mobile: (
@@ -641,7 +641,7 @@
 /* Main */
 
 	#main {
-		margin-left: 18%;
+		margin-left: 40%;
 		> section {
 			text-align: center;
 		}
@@ -654,7 +654,7 @@
 			}
 		}
 		> section, article {
-			margin-left: 18%;
+			margin-left: 40%;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
@@ -735,13 +735,13 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 18%;
+				margin-left: 300px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 18%;
+				margin-left: 300px;
 			}
 
 	}
