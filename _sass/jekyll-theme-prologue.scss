@@ -497,7 +497,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 18%;
 
 		.top {
 			@include vendor('flex-grow', '1');
@@ -611,7 +611,7 @@
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 18%;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -641,7 +641,7 @@
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 18%;
 		> section {
 			text-align: center;
 		}
